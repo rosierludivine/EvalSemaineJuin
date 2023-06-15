@@ -1,5 +1,6 @@
 #include "Combat.h"
 #include <iostream>
+#include "Boxeur.h"
 
 using namespace std;
 
@@ -11,7 +12,6 @@ Boxeurs::Combat::Combat(string niveau)
 
 string Boxeurs::Combat::GetNiveau()
 {
-	this->niveau = niveau; 
 	return this->niveau;
 }
 
@@ -20,3 +20,19 @@ Boxeurs::Combat::~Combat()
 	cout << " le Combat " << this->GetNiveau() << " a ete effacer" << endl;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
