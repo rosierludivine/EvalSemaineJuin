@@ -15,7 +15,7 @@ namespace Boxeurs {
 		string GetNom();
 		double GetPoids();
 		double SetPoids();
-		//~Boxeur();
+		virtual ~Boxeur();
 
 		
 
