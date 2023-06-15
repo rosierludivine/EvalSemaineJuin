@@ -11,7 +11,9 @@ namespace Boxeurs {
 		string niveau; 
 
 	public:
-		
+		Combat(string niveau); 
+		string GetNiveau();
+	
 	};
 }
 

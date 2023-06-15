@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Boxeur.h"
+#include "Combat.h"
 
 using namespace Boxeurs; 
 using namespace std; 
@@ -21,7 +22,12 @@ int main()
     cout << "Boxeur 2: " << box_2->GetNom() << ", et a " << box_2->GetPoids() << "kg." << " Il se trouve à: " << &box_2 << endl;
     cout << endl << endl;
 
-    
+    //Création d'un combat automatique
+    Combat comb1("Comb_1_1/8");
+    cout << "Combat de niveau "<< comb1.GetNiveau() << "sont adresse" << &comb1<< endl;
+    cout << endl << endl;
+
+
     delete box_2; 
 
 };
