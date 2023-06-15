@@ -9,14 +9,18 @@ namespace Boxeurs {
 	{
 	private:
 		string niveau; 
+		Boxeur* coinBleu = nullptr;
+		Boxeur* coinRouge = nullptr;
 
 	public:
 		Combat(string niveau); 
 		string GetNiveau();
 		~Combat();
 		
-
-		Combat* GetCoinBleu();
+		Boxeurs::Boxeur* GetCoinBleu();
+		Boxeurs::Boxeur* GetCoinRouge();
+		void SetCoinBleu(Boxeur*);
+		void SetCoinRouge(Boxeur*);//Asssociation 
 	
 	};
 }

@@ -23,6 +23,34 @@ Boxeurs::Combat::~Combat()
 
 
 
+Boxeurs::Boxeur* Boxeurs::Combat::GetCoinBleu()
+{
+	return this->coinBleu;
+}
+
+Boxeurs::Boxeur* Boxeurs::Combat::GetCoinRouge()
+{
+	return this->coinRouge;
+}
+
+void Boxeurs::Combat::SetCoinBleu(Boxeur*)
+{
+	this->coinBleu = coinBleu;
+}
+
+void Boxeurs::Combat::SetCoinRouge(Boxeur*)
+{
+	this->coinRouge = coinRouge;
+}
+
+
+
+
+
+
+
+
+
 
 
 

@@ -12,7 +12,7 @@ int main()
     //Statique
     cout << " Boxeur en automatique " << endl;
     Boxeur box_1("Caroline", 75);
-//    box_1.
+    box_1.SetCoinBleu(&box_1)
     cout << "Boxeur 1: " << box_1.GetNom() << ", et a " << box_1.GetPoids() << "kg." << " Il se trouve à: " << &box_1 << endl;
     cout << endl << endl;
 
