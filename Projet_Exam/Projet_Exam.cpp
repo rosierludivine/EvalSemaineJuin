@@ -12,7 +12,6 @@ int main()
     //Statique
     cout << " Boxeur en automatique " << endl;
     Boxeur box_1("Caroline", 75);
-    box_1.SetCoinBleu(&box_1)
     cout << "Boxeur 1: " << box_1.GetNom() << ", et a " << box_1.GetPoids() << "kg." << " Il se trouve à: " << &box_1 << endl;
     cout << endl << endl;
 
@@ -26,6 +25,7 @@ int main()
     //Création d'un combat automatique
     Combat comb1("Comb_1(1/8)");
     cout << "Combat de niveau "<< comb1.GetNiveau() << "sont adresse" << &comb1<< endl;
+    cout << "ou est le boxeur 2" << comb1.GetCoinBleu() << endl;
     cout << endl << endl;
 
 
