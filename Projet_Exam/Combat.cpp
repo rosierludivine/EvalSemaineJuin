@@ -17,6 +17,6 @@ string Boxeurs::Combat::GetNiveau()
 
 Boxeurs::Combat::~Combat()
 {
-	cout << " le boxeur " << this->GetNiveau() << " a ete effacer" << endl;
+	cout << " le Combat " << this->GetNiveau() << " a ete effacer" << endl;
 
 }

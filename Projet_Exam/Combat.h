@@ -14,6 +14,7 @@ namespace Boxeurs {
 		Combat(string niveau); 
 		string GetNiveau();
 		~Combat();
+		Boxeur* GetCoinBleu();
 	
 	};
 }
