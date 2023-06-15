@@ -26,7 +26,7 @@ double Boxeurs::Boxeur::GetPoids()
 
 Boxeurs::Boxeur::~Boxeur()
 {
-	cout << " le boxeur " << this->GetNom() << " a ete effacer" << endl; 
+	cout << " le boxeur " << this->GetNom() << " a ete effacer leur adresse " << &this->nom << endl; 
 }
 
 
