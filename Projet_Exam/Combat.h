@@ -13,6 +13,7 @@ namespace Boxeurs {
 	public:
 		Combat(string niveau); 
 		string GetNiveau();
+		~Combat();
 	
 	};
 }

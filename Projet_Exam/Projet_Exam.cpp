@@ -23,7 +23,7 @@ int main()
     cout << endl << endl;
 
     //Création d'un combat automatique
-    Combat comb1("Comb_1_1/8");
+    Combat comb1("Comb_1(1/8)");
     cout << "Combat de niveau "<< comb1.GetNiveau() << "sont adresse" << &comb1<< endl;
     cout << endl << endl;
 
