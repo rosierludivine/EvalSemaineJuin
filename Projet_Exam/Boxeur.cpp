@@ -11,9 +11,20 @@ Boxeurs::Boxeur::Boxeur(string nom, double poids)
 {
 	this->nom = nom; 
 	this->poids = poids; 
-#ifdef TRACE
-	std::cout << "=> Boxeur est " << this->nom << " fait  " << this->poids << " de " << this << std::endl;
-#endif
 
 }
+
+string Boxeurs::Boxeur::GetNom()
+{
+	return this->nom;
+}
+
+double Boxeurs::Boxeur::GetPoids()
+{
+	return this->poids;
+}
+
+
+
+
 

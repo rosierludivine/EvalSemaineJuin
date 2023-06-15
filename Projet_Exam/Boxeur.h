@@ -12,10 +12,11 @@ namespace Boxeurs {
 	
 	public: 
 		Boxeur(string nom, double poids);
-		~Boxeur();
-		string GetNom(); 
+		string GetNom();
 		double GetPoids();
 		double SetPoids();
+		//~Boxeur();
+
 		
 
 	};
